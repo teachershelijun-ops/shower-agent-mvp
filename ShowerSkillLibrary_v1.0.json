@@ -1,0 +1,150 @@
+{
+  "version": "1.0",
+  "skills": [
+    {
+      "skill_id": "BOOST_STANDARD",
+      "name": "增压花洒标准展示",
+      "type": "Boost",
+      "required_uploads": [
+        "product"
+      ],
+      "shot_policy": {
+        "template_only": [
+          "shot1"
+        ],
+        "final_outputs": [
+          "shot2",
+          "shot3",
+          "shot4",
+          "shot5",
+          "shot6",
+          "shot7"
+        ]
+      },
+      "core_focus": [
+        "人物一致",
+        "浴室场景一致",
+        "花洒面板清晰",
+        "强出水效果展示"
+      ],
+      "shot_prompts": {
+        "shot2": "Handheld boost showerhead, mid-shot, model holding product near shoulder, water spray visible at angle, premium bathroom background, soft daylight.",
+        "shot3": "Close-up of showerhead spray panel, water streams crisp, focus on nozzle structure, shallow depth of field.",
+        "shot4": "Side profile shot of model holding showerhead, emphasize ergonomic grip and boost pressure spray.",
+        "shot5": "Wall-mounted holder shot, showerhead spraying downward, model blurred in background for lifestyle context.",
+        "shot6": "Detail shot of handle body and transparent section, clean reflections, product centered.",
+        "shot7": "Wide bathroom lifestyle shot, model smiling, showerhead as hero product, water spray softly visible."
+      },
+      "shots": {
+        "shot2": {
+          "en": "Handheld boost showerhead, mid-shot, model holding product near shoulder, water spray visible at angle, premium bathroom background, soft daylight.",
+          "cn": "手持增压花洒中景展示，模特肩侧持产品，出水效果清晰可见，高端浴室背景，柔和日光。"
+        },
+        "shot3": {
+          "en": "Close-up of showerhead spray panel, water streams crisp, focus on nozzle structure, shallow depth of field.",
+          "cn": "花洒喷淋面板特写，水柱清晰，聚焦喷嘴结构，浅景深。"
+        },
+        "shot4": {
+          "en": "Side profile shot of model holding showerhead, emphasize ergonomic grip and boost pressure spray.",
+          "cn": "模特手持花洒侧身照，突出人体工学握把与增压喷淋效果。"
+        },
+        "shot5": {
+          "en": "Wall-mounted holder shot, showerhead spraying downward, model blurred in background for lifestyle context.",
+          "cn": "壁挂架展示，花洒向下喷水，模特虚化背景营造生活感。"
+        },
+        "shot6": {
+          "en": "Detail shot of handle body and transparent section, clean reflections, product centered.",
+          "cn": "手柄本体与透明段细节，干净反光，产品居中。"
+        },
+        "shot7": {
+          "en": "Wide bathroom lifestyle shot, model smiling, showerhead as hero product, water spray softly visible.",
+          "cn": "浴室全景生活照，模特微笑，花洒为主角产品，喷水效果柔和可见。"
+        }
+      }
+    },
+    {
+      "skill_id": "LARGEPANEL_BOOST",
+      "name": "大面板增压花洒展示",
+      "type": "LargePanel",
+      "required_uploads": [
+        "product"
+      ],
+      "extra_focus": [
+        "对比突出大面板尺寸",
+        "可替代顶喷"
+      ],
+      "shot_prompts": {
+        "shot2": "Model holding showerhead next to head for scale comparison, large spray panel clearly visible.",
+        "shot3": "Front close-up of oversized spray panel, dense water coverage, premium feel.",
+        "shot4": "Top-down angle showing wide spray area like rainfall shower.",
+        "shot5": "Lifestyle bathtub shot, showerhead positioned like overhead spray alternative.",
+        "shot6": "Side detail emphasizing panel thickness and large diameter.",
+        "shot7": "Wide bathroom hero shot, model presenting product as main shower replacement."
+      }
+    },
+    {
+      "skill_id": "FILTER_STANDARD",
+      "name": "过滤花洒展示",
+      "type": "Filter",
+      "required_uploads": [
+        "product",
+        "filter_core"
+      ],
+      "extra_focus": [
+        "过滤芯展示",
+        "使用前后对比"
+      ],
+      "shot_prompts": {
+        "shot2": "Model holding showerhead and showing visible filter cartridge inside handle.",
+        "shot3": "Close-up of filter core placed beside showerhead, clean product arrangement.",
+        "shot4": "Before/after water clarity comparison concept, split composition style.",
+        "shot5": "Lifestyle shower spray shot, emphasis on purified water feel.",
+        "shot6": "Gift filter cores displayed neatly next to product packaging.",
+        "shot7": "Wide bathroom lifestyle hero shot, filter showerhead as premium wellness upgrade."
+      }
+    },
+    {
+      "skill_id": "TRAVELFILTER_MINI",
+      "name": "旅行便携过滤花洒展示",
+      "type": "TravelFilter",
+      "required_uploads": [
+        "product",
+        "filter_core",
+        "travel_bag"
+      ],
+      "extra_focus": [
+        "小尺寸便携",
+        "收纳包展示"
+      ],
+      "shot_prompts": {
+        "shot2": "Mini showerhead held in one hand, emphasize compact size.",
+        "shot3": "Travel pouch displayed open with showerhead and filter inside.",
+        "shot4": "Close-up of portable kit arrangement, clean lifestyle aesthetic.",
+        "shot5": "Bathroom travel scenario, product as hotel-use companion.",
+        "shot6": "Gift filter cores packed inside pouch, organized layout.",
+        "shot7": "Wide lifestyle shot, model holding travel kit with soft smile."
+      }
+    },
+    {
+      "skill_id": "DESCALE_FUNCTION",
+      "name": "除垢花洒展示",
+      "type": "Descale",
+      "required_uploads": [
+        "product",
+        "descale_demo"
+      ],
+      "extra_focus": [
+        "除垢功能展示",
+        "喷嘴清洁前后"
+      ],
+      "shot_prompts": {
+        "shot2": "Close-up of silicone nozzles being wiped clean, scale removal concept.",
+        "shot3": "Before/after nozzle cleanliness comparison, macro detail.",
+        "shot4": "Model pressing anti-scale button or demonstrating easy-clean feature.",
+        "shot5": "Water spray shot showing smooth unclogged streams.",
+        "shot6": "Descale accessory or cleaning demo prop displayed beside product.",
+        "shot7": "Hero lifestyle bathroom shot, product positioned as long-lasting clean shower upgrade."
+      }
+    }
+  ]
+}
